@@ -1,0 +1,1 @@
+﻿Get-MailboxStatistics -database “DataBase” | Select DisplayName, LastLoggedOnUserAccount, ItemCount, TotalItemSize, LastLogonTime, LastLogoffTime | Format-Table
